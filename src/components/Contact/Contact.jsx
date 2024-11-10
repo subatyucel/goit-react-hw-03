@@ -1,11 +1,11 @@
-import "./Contact.module.css";
+import "./Contact.css";
 
 function Contact({ contact, deleteContact }) {
   return (
     <li className="contact-container">
       <div className="contact-info">
-        <h2>{contact.name}</h2>
-        <p>{contact.number}</p>
+        <h2 className="contact-name">{contact.name}</h2>
+        <p className="contact-number">{contact.number}</p>
       </div>
       <button onClick={() => deleteContact(contact.id)}>Delete</button>
     </li>

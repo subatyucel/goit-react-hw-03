@@ -10,7 +10,6 @@ function App() {
 
   useEffect(() => {
     const localContacts = localStorage.getItem("contacts");
-    console.log(localContacts);
     if (localContacts) setContacts(JSON.parse(localContacts));
   }, []);
 

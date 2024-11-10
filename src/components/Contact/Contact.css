@@ -1,4 +1,4 @@
-li {
+.contact-container {
   border: 1px solid black;
   border-radius: 10px;
   display: flex;
@@ -10,7 +10,7 @@ li {
   margin: 10px;
 }
 
-h2,
-p {
+.contact-name,
+.contact-number {
   margin: 0;
 }
