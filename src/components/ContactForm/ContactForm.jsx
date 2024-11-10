@@ -1,7 +1,7 @@
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { nanoid } from "nanoid";
 import * as Yup from "yup";
-import "./ContactForm.module.css";
+import "./ContactForm.css";
 
 // Validation schema
 const addContactSchema = Yup.object().shape({
